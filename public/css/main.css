@@ -43,3 +43,24 @@ a:hover {
 .th-item:hover {
     color: #17a2b8;
 }
+.usernameFont{
+    font-size: 30px; 
+    font-weight: 800; 
+    font-family:'微軟正黑體';
+    color: rgb(109, 109, 109);
+    margin: 10px 0 30px 0;
+}
+.my-sidebar{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(231, 231, 231);
+    position: fixed!important;
+    z-index: 1;
+    overflow: auto;
+}
+.sidebar-option{
+    font-size: 40px;
+    font-weight: 600; 
+    font-family:'微軟正黑體';
+    margin: 40px 0;
+}
