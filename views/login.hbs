@@ -1,9 +1,9 @@
 <div style=" text-align: center">
     <div style="">
-        <div style="display: flex;justify-content:center; padding:2% 15%">
-            <div class="information" style="width:40%;margin:1% 3%">
+        <div style="display: flex;justify-content:center; padding:0% 5% 5% 5%">
+            <div class="information" style="width:100%;margin:0% 10% 10% 10%">
                 <div style="padding: 3%">
-                    <h1 style="margin:5% 0 0 0">Login</h1>
+                    <h1 style="margin:5% 0 5% 0; font-size:80px; font-family:'微軟正黑體'; font-weight:800;">登入</h1>
                     
                 </div>
                 {{!-- 顯示 flash 訊息 --}}
@@ -11,16 +11,16 @@
                 <div>
                     {{!-- 登入資料輸入後端，判別會員資格 --}}
                     <form method="POST" action="/users/login">
-                        <div style="padding: 2%">
-                            <label>帳號</label>
-                            <input class="form-control" type="text" id="account" name="staffId" required>
+                        <div style="padding: 0% 5% 5% 5%">
+                            <label style="font-size:40px; font-family:'微軟正黑體'; font-weight:500;">帳號</label>
+                            <input style="font-size:35px; height: 70px; border:2px black solid;" class="form-control" type="text" id="account" name="staffId" required>
                         </div>
-                        <div style="margin:1% 0;padding: 2%">
-                            <label>密碼</label>
-                            <input class="form-control" type="password" id="password" name="password" required>
+                        <div style="padding: 5%">
+                            <label style="font-size:40px; font-family:'微軟正黑體'; font-weight:500;">密碼</label>
+                            <input style="font-size:35px; height: 70px; border:2px black solid;" style="height: 70px;" class="form-control" type="password" id="password" name="password" required>
                         </div>
-                        <div style="padding: 5% 2%">
-                            <input class="form-control btn btn-primary" type="submit" value="登入">
+                        <div style="padding: 5% 30%">
+                            <input style="width: 80%;" class="w3-button w3-round-xlarge w3-blue w3-xxlarge" type="submit" value="登入">
                         </div>
                     </form>
                 </div>
